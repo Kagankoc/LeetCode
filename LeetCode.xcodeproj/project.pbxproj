@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		452E1F1E2170F12800B56BA2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 452E1F1D2170F12800B56BA2 /* main.cpp */; };
+		452E1F252170F17400B56BA2 /* TwoSums.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 452E1F242170F17400B56BA2 /* TwoSums.cpp */; };
+		452E1F272170F8A300B56BA2 /* 3Sums.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 452E1F262170F8A300B56BA2 /* 3Sums.cpp */; };
+		452E1F292170FD2800B56BA2 /* FourSums.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 452E1F282170FD2800B56BA2 /* FourSums.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		452E1F1A2170F12800B56BA2 /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		452E1F1D2170F12800B56BA2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		452E1F242170F17400B56BA2 /* TwoSums.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TwoSums.cpp; sourceTree = "<group>"; };
+		452E1F262170F8A300B56BA2 /* 3Sums.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 3Sums.cpp; sourceTree = "<group>"; };
+		452E1F282170FD2800B56BA2 /* FourSums.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FourSums.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				452E1F1D2170F12800B56BA2 /* main.cpp */,
+				452E1F242170F17400B56BA2 /* TwoSums.cpp */,
+				452E1F262170F8A300B56BA2 /* 3Sums.cpp */,
+				452E1F282170FD2800B56BA2 /* FourSums.cpp */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -118,6 +127,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				452E1F252170F17400B56BA2 /* TwoSums.cpp in Sources */,
+				452E1F292170FD2800B56BA2 /* FourSums.cpp in Sources */,
+				452E1F272170F8A300B56BA2 /* 3Sums.cpp in Sources */,
 				452E1F1E2170F12800B56BA2 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
